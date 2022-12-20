@@ -46,7 +46,7 @@ You then see your owner putting your leash on.
 You both walk outside and you see a squirrel.
 You bolt off after it pulling the leash out of your owners hands and hear them shout out ECHO!
 You chase the squirrel for what feels like a coupple seconds.
-Then you come to realize you dont know were you are or how long you have been chaseing it. 
+Then you come to realize you dont know were you are or how long you have been chasseing it. 
                 
                 """)
         if 1 == 1 :
