@@ -21,27 +21,53 @@ you wake up in a cage your options are:
     if int(inputv) == 1: 
         print("""
 
-you doze off to sleep
+You doze off to sleep
 You wake up to someone leting you out of your cage
 
 your options are:
-1 : 
+1 : Leave the cage  
+2 : Stay in the cage 
         """)
 
         inputv = input("Chose an option:")
+
+        if int(inputv) == 1 :
+                print("""
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You see nothing then suddenly a bright flash of light.
+Once your eyes adjust to the light you can see again 
+And you walk out a door to the what appears to be the living room.
+You then see your owner putting your leash on.
+
+""")
+        inputv = input(":")
+        if inputv == "":
+                print("""
+You both walk outside and you see a squirrel.
+You bolt off after it pulling the leash out of your owners hands and hear them shout out ECHO!
+You chase the squirrel for what feels like a coupple seconds.
+Then you come to realize you dont know were you are or how long you have been chaseing it. 
+                
+                """)
+        if 1 == 1 :
+            print(""" 
+            To be continued...
+            
+            """)
+
+    if inputv == "2" :
+        print("""
+You hear a faint voice in the distance
     
-    if int(inputv) == 2:
-        print("""You hear a faint voice int the distance
-        
 """)
 
-    if int(inputv) == 3:
+    if inputv == "3" :
         print("""
-You decide to wake up your brother by biteing him,
+You decide to wake up your brother by bitting him,
 he doesn't like it and bites you too
 """)
     
-    if int(inputv) == 4: 
+    if inputv == "4" :
         print("""
 You are patient and wait 
 """)
