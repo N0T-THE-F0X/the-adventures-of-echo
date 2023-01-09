@@ -45,15 +45,23 @@ You then see your owner putting your leash on.
                 print("""
 You both walk outside and you see a squirrel.
 You bolt off after it pulling the leash out of your owners hands and hear them shout out ECHO!
-You chase the squirrel for what feels like a coupple seconds.
+You chase the squirrel for what feels like a couple seconds.
 Then you come to realize you dont know were you are or how long you have been chasseing it. 
                 
                 """)
-        if 1 == 1 :
-            print(""" 
+            if 1 == 1 :
+                print(""" 
             To be continued...
             
             """)
+
+        if inputv == "2":
+            print("""
+You can see nothing other than your brother walking out of the cage.
+
+            """)
+
+
 
     if inputv == "2" :
         print("""
